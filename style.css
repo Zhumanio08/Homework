@@ -1,15 +1,51 @@
 body {
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
-    background-color: #94a3b8;
-    font-family: 'Roboto', sans-serif;
-    background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  background-color: #09090b;
+  font-family: "Roboto", sans-serif;
+  background-size: cover;
 }
 
-a.about {
-    display: inline-flexbox;
-    padding: 15px 25px;
-    border: 2px solid #333;
+p {
+  color: #fafafa;
 }
 
+h1,
+h2 {
+  color: #4c0519;
+}
+
+a {
+  color: #e11d48;
+}
+
+.Month {
+  color: #4c0519;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+pre {
+  border: 2px dashed #4c0519;
+  padding: 10px;
+  color: aliceblue;
+}
+
+.page1 {
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  border: 1px solid #4c0519;
+}
+
+figcaption {
+  color: aliceblue;
+}
+
+li {
+  color: #4c0519;
+}
+
+th {
+  color: #4c0519;
+}
