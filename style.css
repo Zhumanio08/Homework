@@ -12,7 +12,8 @@ p {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   color: #4c0519;
 }
 
@@ -40,6 +41,20 @@ pre {
 
 figcaption {
   color: aliceblue;
+}
+
+.Dni {
+  color: #4c0519;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+caption {
+  color: #4c0519;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.tablica {
+  color: #881337;
 }
 
 li {
