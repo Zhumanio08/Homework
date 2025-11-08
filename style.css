@@ -17,6 +17,10 @@ h3 {
   color: #4c0519;
 }
 
+h1 {
+  font-size: 32px;
+}
+
 a {
   color: #e11d48;
 }
@@ -41,6 +45,11 @@ pre {
 
 figcaption {
   color: aliceblue;
+  font-style: italic;
+  display: block;
+  clear: right;
+  float: right;
+  text-align: center;
 }
 
 .Dni {
@@ -63,4 +72,27 @@ li {
 
 th {
   color: #4c0519;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+img {
+  float: right;
+  margin-left: 15px;
+  margin-bottom: 10px;
 }
