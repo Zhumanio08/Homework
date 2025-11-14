@@ -1,0 +1,22 @@
+.parent {
+  position: relative; /* Для absolute будет точкой отсчета */
+  height: 300px;
+  border: 2px solid blue;
+}
+
+.static {
+  position: static;
+  /* top/left не работают */
+}
+
+.relative {
+  position: relative;
+  top: 20px; /* Сдвинется ВНИЗ на 20px от своего места */
+  left: 30px; /* Сдвинется ВПРАВО на 30px от своего места */
+}
+
+.absolute {
+  position: absolute;
+  top: 10px; /* 10px от ВЕРХА родителя */
+  right: 20px; /* 20px от ПРАВОГО края родителя */
+}
